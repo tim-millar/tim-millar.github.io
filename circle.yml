@@ -14,7 +14,7 @@ dependencies:
 test:
 
   override:
-    - stack build
+    - cabal build
 
   post:
     - git submodule init
